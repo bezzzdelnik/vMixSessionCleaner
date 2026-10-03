@@ -13,4 +13,3 @@ dotnet publish (Join-Path $root "vMixSessionCleaner.csproj") `
 
 Write-Host ""
 Write-Host "Ready: $out\vMixSessionCleaner.exe"
-Write-Host "No .NET / Node / Python / VS Redistributable required for end users."

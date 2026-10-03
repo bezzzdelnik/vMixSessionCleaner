@@ -15,7 +15,6 @@ vMix Instant Replay can create many session segments, but it does not provide a 
 - Create an automatic XML backup before every deletion
 - Restore `replay2.xml` from a previous cleaner backup
 - Multilingual UI: **English**, **Russian**, **Simplified Chinese**
-- Portable self-contained build — no .NET, Node.js, Python, or VS Redistributable required for end users
 
 ## What gets deleted
 
@@ -51,15 +50,8 @@ Important:
 
 ## Requirements
 
-### End users
-
 - Windows x64
-- No additional runtimes needed when using the published single-file build
-
-### Building from source
-
-- [.NET 9 SDK](https://dotnet.microsoft.com/download)
-- Windows
+- [.NET 9 SDK](https://dotnet.microsoft.com/download) to build from source
 
 ## Build / publish
 

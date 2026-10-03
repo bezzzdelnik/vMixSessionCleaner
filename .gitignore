@@ -53,3 +53,5 @@ PublishScripts/
 ## Local secrets / settings dumps (if any)
 *.local.json
 appsettings.*.local.json
+
+release-assets/
