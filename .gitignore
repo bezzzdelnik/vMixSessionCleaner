@@ -1,0 +1,55 @@
+## Build
+bin/
+obj/
+out/
+dist/
+dist-new/
+publish/
+[Bb]uild/
+[Rr]elease/
+[Dd]ebug/
+x64/
+x86/
+*.exe
+*.dll
+*.pdb
+*.cache
+*.log
+
+## IDE / VS / Cursor / Rider
+.vs/
+.vscode/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+*.rsuser
+
+## Test / temp
+_smoke/
+_testdata/
+*.tmp
+*.temp
+*.swp
+*~
+
+## OS
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+## NuGet / packages
+*.nupkg
+*.snupkg
+packages/
+project.lock.json
+project.fragment.lock.json
+
+## Publish leftovers
+*.publishproj
+PublishScripts/
+
+## Local secrets / settings dumps (if any)
+*.local.json
+appsettings.*.local.json

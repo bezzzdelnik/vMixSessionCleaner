@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net9.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>vMixSessionCleaner</AssemblyName>
+    <Product>vMix Session Cleaner</Product>
+    <Description>Безопасное удаление сессий vMix Instant Replay</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="_smoke\**" />
+    <Compile Remove="_testdata\**" />
+    <EmbeddedResource Remove="_smoke\**" />
+    <EmbeddedResource Remove="_testdata\**" />
+    <None Remove="_smoke\**" />
+    <None Remove="_testdata\**" />
+  </ItemGroup>
+
+</Project>
